@@ -1,0 +1,83 @@
+.main-cover {
+  background-image: url("main-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat";
+  justify-content: center;
+  align-items:center;
+  color: white;
+}
+.main-cover h1 {
+  padding: 5rem 0;
+  font-size: 5rem;
+}
+.main-cover h2 {
+  font-size: 3rem;
+}
+.main-cover button {
+  font-size: 2rem;
+}
+.supsection {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Josefin Slab";
+}
+.supsection h3{
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+.supsection p {
+  font-size: 2rem;
+  font-style: italic;
+}
+.secsection {
+  background-image: url("home-secondary.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  padding: 2rem;
+}
+.discover {
+  height: 50vh;
+  display: flex;
+  font-family: "Josefin Slab";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discover h3 {
+  font-size: 3rem;
+}
+.discover button {
+  width: fit-content;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+footer {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Lato";
+}
+footer h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+footer ul {
+  display: flex;
+  margin: 1rem;
+  top: 0px;
+  justify-content: center;
+}
+footer li{
+  padding: 0 2vw;
+  font-size: 1.5rem;
+  list-style: none;
+}
