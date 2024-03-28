@@ -1,3 +1,56 @@
+/* nav & footer */
+
+nav {
+  position: absolute;
+  background-color: rgba(25, 4, 15, 0.3);
+  width: 100%;
+  font-family: "Lato";
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+nav h2 {
+  padding: 1rem;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  padding: 1rem 2rem
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Lato";
+}
+footer h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+footer ul {
+  display: flex;
+  margin: 1rem;
+  top: 0px;
+  justify-content: center;
+}
+footer li{
+  padding: 0 2vw;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+/* main page */
+
+
 .main-cover {
   background-image: url("main-cover.jpg");
   background-size: cover;
@@ -20,12 +73,18 @@
 .main-cover button {
   font-size: 2rem;
 }
+.main-cover button a{
+  color: white;
+  text-decoration: none;
+}
 .supsection {
   padding: 5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   font-family: "Josefin Slab";
+  justify-content: center;
+  align-items: center;
 }
 .supsection h3{
   padding: 2rem 0;
@@ -35,6 +94,7 @@
   font-size: 2rem;
   font-style: italic;
 }
+
 .secsection {
   background-image: url("home-secondary.jpg");
   background-size: cover;
@@ -58,26 +118,28 @@
   margin-top: 3rem;
   font-size: 1.5rem;
 }
-footer {
-  display:flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: black;
+.discover button a{
   color: white;
-  font-family: "Lato";
+  text-decoration: none;
 }
-footer h4 {
-  font-size: 2rem;
-  margin-top: 1rem;
-}
-footer ul {
+
+
+/* about page */
+
+
+.about-main {
+  background-image: url("about-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
   display: flex;
-  margin: 1rem;
-  top: 0px;
+  flex-direction: column;
+  font-family: "Caveat";
   justify-content: center;
+  align-items:center;
+  color: white;
 }
-footer li{
-  padding: 0 2vw;
-  font-size: 1.5rem;
-  list-style: none;
+.about-main h3 {
+  font-size: 5rem;
+  text-shadow: black 2px 5px;
 }

@@ -14,7 +14,13 @@
   </head>
 
   <body>
-    <nav></nav>
+    <nav>
+      <h2><i class="fa-solid fa-book"></i></h2>
+      <ul>
+        <li> <%= link_to 'home', root_path%> </li>
+        <li> <%= link_to 'about', about_path(@about)%> </li>
+      </ul>
+    </nav>
     <%= yield %>
     <footer>
       <h4>Follow us on:</h4>
